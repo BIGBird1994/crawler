@@ -20,7 +20,7 @@ connection = pymysql.connect(host=MYSQL_HOST, user=MYSQL_USER,
 
 # mongo
 username = urllib.parse.quote_plus('root')
-password = urllib.parse.quote_plus('1x2yxtabc1995')
+password = urllib.parse.quote_plus('123')
 conn = pymongo.MongoClient(host='mongodb://%s:%s@35.221.151.226' % (username, password), port=27017)
 
 
