@@ -30,12 +30,6 @@ class spider(Spider):
         'SCHEDULER': "scrapy_redis.scheduler.Scheduler",
         'DUPEFILTER_CLASS': "scrapy_redis.dupefilter.RFPDupeFilter",
         'SCHEDULER_PERSIST': True,
-        'REDIS_PARAMS': {
-            'db': 1,
-            'password': '1x2yxtabc'
-        },
-        'REDIS_PROT': '6379',
-        'REDIS_HOST': '35.221.151.226',
         'SCHEDULER_QUEUE_CLASS': 'scrapy_redis.queue.SpiderPriorityQueue',
         'HTTPERROR_ALLOWED_CODES ': [301, 302, 403, 404, 418, 911, 500, 502, 503]
     }
